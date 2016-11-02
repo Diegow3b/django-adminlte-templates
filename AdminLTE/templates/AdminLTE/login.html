@@ -57,11 +57,11 @@
         </div><!-- /.social-auth-links -->
         {% endif %}
 
-        {% if ALTE.URL_FORGOT_PASSWORD %}
-        <a href="{{ ALTE.URL_FORGOT_PASSWORD }}">{{ ALTE.LOGIN.FORGOT_PASSWORD_TEXT }}</a><br>
+        {% if ALTE.URL.FORGOT_PASSWORD %}
+        <a href="{{ ALTE.URL.FORGOT_PASSWORD }}">{{ ALTE.LOGIN.FORGOT_PASSWORD_LINK_TEXT }}</a><br>
         {% endif %}
-        {% if ALTE.URL_REGISTER %}
-        <a href="{{ ALTE.URL_REGISTER }}" class="text-center">{{ ALTE.LOGIN.REGISTER_TEXT }}</a>
+        {% if ALTE.URL.REGISTER %}
+        <a href="{{ ALTE.URL.REGISTER }}" class="text-center">{{ ALTE.LOGIN.REGISTER_LINK_TEXT }}</a>
         {% endif %}
     </div><!-- /.login-box-body -->
 </div><!-- /.login-box -->
